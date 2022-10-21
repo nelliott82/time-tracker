@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -w --mode production",
+    "tailwind": "npx tailwindcss -i ./client/dist/style.css -o ./client/dist/output.css --watch",
     "start": "npx nodemon --watch server server/index.js"
   },
   "repository": {
