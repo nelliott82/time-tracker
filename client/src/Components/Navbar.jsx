@@ -5,6 +5,9 @@ export default function Navbar () {
 
   return (
     <nav className={navClass} id='navbar'>
+      <div id='logo'>
+        Logo here.
+      </div>
       <div id='links'>
         <p>Enter Time</p>
       </div>
